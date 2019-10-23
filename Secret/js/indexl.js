@@ -18,7 +18,8 @@ var S = {
       S.Shape.render();
       //console.log(m);
       if(m==700){
-        window.location.href="BirthdayCake.html";
+          $("body").html('<iframe src="BirthdayCake.html" style="height:100vh;width:100vw;"  frameborder="0" ></iframe>')
+        //window.location.href="BirthdayCake.html";
       }
     });
 
